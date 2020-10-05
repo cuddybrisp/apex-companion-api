@@ -6,9 +6,6 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true
   },
-  games: {
-    type: Array
-  },
   hashedPassword: {
     type: String,
     required: true
